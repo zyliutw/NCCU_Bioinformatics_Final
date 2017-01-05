@@ -28,7 +28,7 @@ git clone https://github.com/yad50968/NCCU_Bioinformatics_Final.git
 cd NCCU_Bioinformatics_Final
 ```
 
-Step1 Download fastq and Decompress (It will create fastq folder)
+###Step1### Download fastq and Decompress (It will create fastq folder)
 ```sh
 sh ./download_fastq.sh
 ```
