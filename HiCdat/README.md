@@ -8,10 +8,9 @@ Pre-install:
 [R](https://www.r-project.org/)</br>
 [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)</br>
 [Samtools](http://samtools.sourceforge.net/)</br>
-HiCdatPre Binary</br>
-[for mac 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true)</br>
-[for windows 7 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/windows_64bit.zip?raw=true)</br>
-[for linux 64bit (need Qt4 lib)](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)</br>
+[HiCdatPre Binary for mac 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true)</br>
+[HiCdatPre Binary windows 7 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/windows_64bit.zip?raw=true)</br>
+[HiCdatPre Binary linux 64bit (need Qt4 lib)](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)</br>
 
 HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with:
 ```r
