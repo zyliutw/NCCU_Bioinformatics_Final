@@ -49,12 +49,12 @@ Step4 Use Bowtie2 and Samtool to generate .BAM
 sh run_bowtie_samtool.sh
 ```
 
-Step5 Use HiCdatPre to merge BAM files
-Step6 Use HiCdatPre to generate fragments (Set binsize : 100000) ex: ./fasta_fra.txt
-Step7 Use HiCdatPre to generate map read-pairs to fragments ex ./Data/
-Step8 Use HiCdatPre to generate R-source file containing basic genome information of organism<br>ex ./Rscripts/organism-specific_R-code.R)
+Step5 Use HiCdatPre to merge BAM files<br>
+Step6 Use HiCdatPre to generate fragments (Set binsize : 100000) ex: ./fasta_fra.txt</br>
+Step7 Use HiCdatPre to generate map read-pairs to fragments ex ./Data/<br>
+Step8 Use HiCdatPre to generate R-source file containing basic genome information of organism<br>ex ./Rscripts/organism-specific_R-code.R)</br>
 
-Step19 Fix the path and the file names in the Rscript/HiCdat-Result.R 
+Step9 Fix the path and the file names in the Rscript/HiCdat-Result.R <br>
 Step10 Run
 ```sh
 Rscript ./Rscript/HiCdat-Result.R
