@@ -28,25 +28,35 @@ git clone https://github.com/yad50968/NCCU_Bioinformatics_Final.git
 cd NCCU_Bioinformatics_Final
 ```
 
-1. 下載 7組 fastq and 解壓縮
+1. Download fastq and Decompress (It will create fastq folder)
+```sh
 sh ./download_fastq.sh
+```
 
 
-
-2. 下載 fasta /解壓縮 /filter沒有用的資料
+2. Download fasta, Decompress, filter it (It will create fasta folder)
+```sh
 sh ./download_fasta.sh
+```
 
-3. 透過 Bowtie2 建立 index
+3. Use Bowtie2 to build index
+```sh
 bowtie2-build ./fasta/fasta_filtered.fasta ./fasta_index/build_fasta
+```
 
-4. 透過 Bowtie2 & samtool 產生 7組 bam檔 
+4. Use Bowtie2 and Samtool to generate .BAM
+```sh
 sh run_bowtie_samtool.sh
+```
 
-5. 透過 HiCdatPre 將 bam 檔 merge
-6. 透過 HiCdatPre 輸入 fasta_filtered.fasta 產生 fragments (設定binsize : 100000) ex: ./fasta_fra.txt
-7. 透過 HiCdatPre 輸入 第五步＆第六步產生的資料 產生 map read-pairs to fragments 資料 (HiCdat library所需要資料,7組, 取給R用的檔案放到./Data)
-8. 透過 HiCdatPre 輸入 ./fasta/fasta_filtered.fasta 產生 R-source file containing basic genome information of organism (HiCata library所需要, ex ./Rscripts/organism-specific_R-code.R)
+5. Use HiCdatPre to merge BAM files
+6. Use HiCdatPre to generate fragments 輸入 fasta_filtered.fasta 產生 fragments (設定binsize : 100000) ex: ./fasta_fra.txt
+7. Use HiCdatPre to generate map read-pairs to fragments  輸入 第五步＆第六步產生的資料 產生 map read-pairs to fragments 資料 (HiCdat library所需要資料,7組, 取給R用的檔案放到./Data)
+8. Use HiCdatPre to generate R-source file containing basic genome information of organism   輸入 ./fasta/fasta_filtered.fasta 產生 R-source file containing basic genome information of organism (HiCata library所需要, ex ./Rscripts/organism-specific_R-code.R)
 
-9. 修改 Rscript/HiCdat-Result.R 中的路徑以及檔案名稱
-10. Rscript ./Rscript/HiCdat-Result.R
+9. Fix the path and the file names in the Rscript/HiCdat-Result.R 
+10. Run
+```sh
+Rscript ./Rscript/HiCdat-Result.R
+```
 
