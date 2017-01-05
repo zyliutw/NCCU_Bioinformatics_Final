@@ -8,7 +8,7 @@ Pre-install:
 [R](https://www.r-project.org/)</br>
 [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)</br>
 [Samtools](http://samtools.sourceforge.net/)</br>
-HiCdatPre Binary
+HiCdatPre Binary</br>
 [for mac 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true)</br>
 [for windows 7 64bit](https://github.com/MWSchmid/HiCdat/blob/master/other/windows_64bit.zip?raw=true)</br>
 [for linux 64bit (need Qt4 lib)](https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true)</br>
