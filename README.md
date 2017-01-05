@@ -1,4 +1,7 @@
 # NCCU Bioinformatics Final Project
 
 ###Goal : 
-Reproduce the experiment on the [Three-Dimensional Folding and Functional Organization Principles of the Drosophila Genome](http://fulltext.study/preview/pdf/2035921.pdf)
+Reproduce the expertiment on the [Three-Dimensional Folding and Functional Organization Principles of the Drosophila Genome](http://admbio.ccu.edu.tw/new/seminar_pdf/1002/Three-dimensional.pdf)  
+
+1. Figure 2A
+2. Figure 3B
