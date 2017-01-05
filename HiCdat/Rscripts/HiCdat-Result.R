@@ -7,6 +7,7 @@ pathToScripts <- "../Rscripts"
 pathToOutput <- "../Output"
 # load all the necessary functions (general and organism specific)
 library(HiCdatR)
+#f.source.organism.specific.code(file.path(pathToScripts, "organism-specific_R-code.R"))
 f.source.organism.specific.code(file.path(pathToScripts, "organism-specific_R-code.R"))
 
 
@@ -18,11 +19,10 @@ dataMatrix <- f.load.one.sample(
                     dataDir = pathToData,
                     files = c("62_3_2.txt","63_3_2.txt","64_3_2.txt","65_3_2.txt","66_3_2.txt","67_3_2.txt","68_3_2.txt"),
                     binSize = binSize,
-                    repetitions = 50
+                    repetitions = 100
 )
 
 
-#f.plot.XY.matrix(binMatList, binSize, 1e7, pathToTutorial, "HiC_raw_Col_combined")
 # draw heatmaps of the raw interaction frequencies and the correlated interaction frequencies
 f.plot.XY.matrix(
     matrixToPlot = dataMatrix,
@@ -32,5 +32,6 @@ f.plot.XY.matrix(
     outfile = "HiC_raw_Col_combined"
 )
 
-f.identify.domains.with.HiCseg(dataMatrix, binSize, pathToOutput, outfilePrefix = "domains", minAverageDomainSize = 1e6, distributionType = "G", modelType = "Dplus", useLog = TRUE, regionDefinitionTable = data.frame())
+f.source.organism.specific.code(file.path(pathToScripts, "organism-specific_R-for_3R.R"))
+f.identify.domains.with.HiCseg(dataMatrix, 100000, pathToOutput, outfilePrefix = "domains", minAverageDomainSize = 1e6, distributionType = "P", modelType = "Dplus", useLog = TRUE, regionDefinitionTable = data.frame())
 
