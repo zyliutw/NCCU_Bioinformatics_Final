@@ -3,7 +3,7 @@ Finish by HiCdat tool
 
 [Reference: HiCdat](https://github.com/MWSchmid/HiCdat)
 
-Pre-install:
+###Pre-install:
 
 [R](https://www.r-project.org/)</br>
 [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)</br>
