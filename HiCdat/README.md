@@ -1,13 +1,13 @@
-使用 HiCdat 工具完成
+Finish by HiCdat tool
+=========================
 
-參考：
-https://github.com/MWSchmid/HiCdat
+[Reference: HiCdat](https://github.com/MWSchmid/HiCdat)
 
-先安裝
+Pre-install:
+
 R : https://www.r-project.org/
 Bowtie2 : http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 samtools : http://samtools.sourceforge.net/
-
 HiCdatPre 
 	for mac 64bit
 		https://github.com/MWSchmid/HiCdat/blob/master/other/mac_64bit.zip?raw=true
@@ -17,13 +17,13 @@ HiCdatPre
 		https://github.com/MWSchmid/HiCdat/blob/master/other/linux_64bit.zip?raw=true
 
 HiCdatR requires the R libraries "gplots", "randomizeBE", "MASS", and "HiCseg". You can install them with:
-
+```r
 install.packages(c("gplots", "randomizeBE", "MASS"))
 source("http://bioconductor.org/biocLite.R")
 biocLite("HiCseg")
 
 install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source")
-
+```
 
 
 
