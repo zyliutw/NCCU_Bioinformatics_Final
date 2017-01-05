@@ -9,5 +9,9 @@ Reproduce the expertiment on the [Three-Dimensional Folding and Functional Organ
 ![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/paper_2A.png)
 
 
-###Use HiCdat
+###HiCdat Result
+####Result 1B
+![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/HiCdat_1B.png)
+####Result 2A
+![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/HiCdat_2A.png)
 
