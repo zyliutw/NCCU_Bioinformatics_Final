@@ -22,10 +22,11 @@ install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source")
 ```
 
 
-
+Download Project
+```
 git clone https://github.com/yad50968/NCCU_Bioinformatics_Final.git
 cd NCCU_Bioinformatics_Final
-
+```
 
 1. 下載 7組 fastq and 解壓縮
 sh ./download_fastq.sh
