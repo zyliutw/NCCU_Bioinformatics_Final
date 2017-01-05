@@ -29,7 +29,8 @@ cd NCCU_Bioinformatics_Final
 ```
 
 ###Step1 
-Download fastq and Decompress (It will create fastq folder)
+Download fastq and Decompress (It will create fastq folder)<br>
+About need 150GB
 ```sh
 sh ./download_fastq.sh
 ```
