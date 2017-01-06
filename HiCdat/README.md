@@ -1,7 +1,7 @@
 Finish by HiCdat tool
 =========================
 
-[Reference: HiCdat](https://github.com/MWSchmid/HiCdat)
+[Reference: HiCdat](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0678-x)[github](https://github.com/MWSchmid/HiCdat)
 
 ###Pre-install:
 
