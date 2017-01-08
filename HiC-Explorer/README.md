@@ -67,15 +67,6 @@ hicCorrectMatrix correct --chromosomes 2L 2R 3L 3R 4 X -m ./merged.matrix.npz -o
 ###Step8
 Generage png
 ```
-hicPlotMatrix --log1p --dpi 300 –m ./dmel.Corrected.npz --chromosomeOrder 2L 2R 3L 3R 4 X -o dmel.png
+hicPlotMatrix --log1p --dpi 300 –m ./dmel.Corrected.npz --chromosomeOrder 2L 2R 3L 3R 4 X -o ./output/dmel.png
 ```
-
-
-
-
-
-
-
-
-
 
