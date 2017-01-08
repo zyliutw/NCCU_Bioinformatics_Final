@@ -23,25 +23,25 @@ cd NCCU_Bioinformatics_Final/Hic-Explorer/
 ###Step1 
 Download fastq and Decompress (It will create fastq folder)<br>
 About need 150GB
-```sh
+```
 sh ./download_fastq.sh
 ```
 
 ###Step2 
 Download fasta, Decompress, filter it (It will create fasta folder)
-```sh
+```
 sh ./download_fasta.sh
 ```
 
 ###Step3
 Generate .bt for hisat tool
-```sh
-hisat-build -f ./fasta/fasta_filtered.fasta ./deml
+```
+hisat-build -f ./fasta/fasta_filtered.fasta ./bt/deml
 ```
 
 ###Step4
 Using hisat to align
-```sh
+```
 sh align_with_hisat.sh
 ```
 
@@ -53,12 +53,22 @@ sh establish_matrix.sh
 
 ###Step6
 Merge matrix
+```
+hicSumMatrices -m $(ls ./matrix) -o ./merged.matrix.npz
+```
 
 ###Step7
 Correct matrix
+```
+hicCorrectMatrix correct --chromosomes 2L 2R 3L 3R 4 X -m ./merged.matrix.npz -o deml.Corrected.npz
+```
+
 
 ###Step8
 Generage png
+```
+hicPlotMatrix --log1p --dpi 300 –m ./dmel.Corrected.npz --chromosomeOrder 2L 2R 3L 3R 4 X -o dmel.png
+```
 
 
 
