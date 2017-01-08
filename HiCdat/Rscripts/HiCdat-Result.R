@@ -22,6 +22,7 @@ dataMatrix <- f.load.one.sample(
                     repetitions = 100
 )
 
+f.HiC.correlation.matrix(dataMatrix, pathToOutput, outfile = "matrix")
 
 # draw heatmaps of the raw interaction frequencies and the correlated interaction frequencies
 f.plot.XY.matrix(
