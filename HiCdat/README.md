@@ -3,7 +3,7 @@ Finish by HiCdat tool
 
 [Reference: HiCdat](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0678-x)  [github](https://github.com/MWSchmid/HiCdat)
 
-###Pre-install:
+###Pre-install
 
 [R](https://www.r-project.org/)</br>
 [Bowtie2](http://bowtie-bio.sourceforge.net/bowtie2/index.shtml)</br>
@@ -25,7 +25,7 @@ install.packages("/path/to/HiCdatR_0.99.0.tar.gz", repos=NULL, type = "source")
 ###Download Project
 ```
 git clone https://github.com/yad50968/NCCU_Bioinformatics_Final.git
-cd NCCU_Bioinformatics_Final
+cd NCCU_Bioinformatics_Final/HiCdat
 ```
 
 ###Step1 
