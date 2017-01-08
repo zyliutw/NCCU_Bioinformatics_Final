@@ -4,7 +4,7 @@ Finish by HiC-Explorer
 [Reference: Hic-Explorer](http://hicexplorer.readthedocs.io/en/latest/index.html)
 
 ###Pre-install
-[Python2.7](https://www.python.org)
+[Python2.7](https://www.python.org)<br>
 [hisat](http://www.ccb.jhu.edu/software/hisat/index.shtml)
 
 ###Install
@@ -36,7 +36,7 @@ sh ./download_fasta.sh
 ###Step3
 Generate .bt for hisat tool
 ```sh
-hisat-build -f ./fasta/fasta_filtered.fasta deml
+hisat-build -f ./fasta/fasta_filtered.fasta ./deml
 ```
 
 ###Step4
@@ -48,7 +48,7 @@ sh align_with_hisat.sh
 ###Step5
 Using hicBuildMatrix to establish matrix
 ```
-sh establish matrix
+sh establish_matrix.sh
 ```
 
 ###Step6
