@@ -9,6 +9,12 @@ Finished with Juicer / JuiceBox
 ###Pre-install
 [Burrows-Wheeler Aligner](http://bio-bwa.sourceforge.net)
 
+###For MacOSX
+You have to use gawk instead of awk
+```
+brew install gawk
+alias awk gawk
+```
 
 --------------------------
 ##Pre
