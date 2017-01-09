@@ -19,4 +19,4 @@ Reproduce the expertiment on the [Three-Dimensional Folding and Functional Organ
 ---------
 ###HiC-Explorer
 ###Result 1B (Not finished yet,only use 62_1,62_2.fastq)
-![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/HiC-Explorer_1B.jpg)
+![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/HiC-Explorer_1b.jpg)
