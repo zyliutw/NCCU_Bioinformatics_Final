@@ -10,13 +10,15 @@ Finish by Juicer / JuiceBox
 [Burrows-Wheeler Aligner](http://bio-bwa.sourceforge.net)
 
 
+--------------------------
+##Pre
+
 ###Download Project
 ```
 git clone https://github.com/yad50968/NCCU_Bioinformatics_Final.git
 cd NCCU_Bioinformatics_Final/Juicer_JuiceBox/
 ```
 
-##You have do 7 times
 
 ###Step1 
 Download fastq and Decompress (It will create fastq folder)<br>
@@ -56,29 +58,41 @@ sudo mkdir /opt
 sudo cp -r ./scripts /opt
 ```
 
-###Step6
+--------------------
+##Run with juicer
+##You have to do these steps pairs by pairs
+
+
+###Step1
+Rename .fastq file and move it the ./fastq<br>
+```
+cp ./all_fastq/SRR389762_1.fastq ./fastq/SRR389762_R1.fastq
+cp ./all_fastq/SRR389762_2.fastq ./fastq/SRR389762_R2.fastq
+```
+
+###Step1
 Run
 ```
 ./juicer.sh -z ./fasta/fasta_filtered.fasta -p ./chrom.sizes -y ./DpnII.txt -g dm3
 ```
 
-###Step7
-You have to add *_abnorm.sam in the ./split</br>
+###Step2
+You have to add *_abnorm.sam in the ./split after you run juicer.sh</br>
 It may be new issue...
 ```
 cp ./tmp_abnorm.sam
 ```
 
-###Step8
-Move *.hic to other directory and change file name
+###Step3
+When it finish, move *.hic to other directory and change file name
 ```
 mv ./aligned/inter.hic ./out_hic/{times}.hic
 
 
-###Step9
-Remove ./splits ./aligned
+###Step4
+Remove ./splits ./aligned ,fastq in the ./fastq
 ```
-rm -rf ./splits ./aligned
+rm -rf ./splits ./aligned ./fastq/*
 ```
 
 
