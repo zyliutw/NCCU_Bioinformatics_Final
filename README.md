@@ -1,7 +1,6 @@
 # NCCU Bioinformatics Final Project
 
-###Member:
-@yad50968
+
 
 ###Goal : 
 Reproduce the expertiment on the [Three-Dimensional Folding and Functional Organization Principles of the Drosophila Genome](http://admbio.ccu.edu.tw/new/seminar_pdf/1002/Three-dimensional.pdf)  
