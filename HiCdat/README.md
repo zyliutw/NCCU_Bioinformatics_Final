@@ -1,4 +1,4 @@
-Finish by HiCdat tool
+Finished with HiCdat tool
 =========================
 
 [Reference: HiCdat](http://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-015-0678-x)  [github](https://github.com/MWSchmid/HiCdat)

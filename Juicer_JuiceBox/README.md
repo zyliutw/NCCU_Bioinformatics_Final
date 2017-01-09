@@ -1,4 +1,4 @@
-Finish by Juicer / JuiceBox
+Finished with Juicer / JuiceBox
 =========================
 
 ###Reference:

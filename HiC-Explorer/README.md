@@ -1,4 +1,4 @@
-Finish by HiC-Explorer
+Finished with HiC-Explorer
 =========================
 
 [Reference: Hic-Explorer](http://hicexplorer.readthedocs.io/en/latest/index.html)
