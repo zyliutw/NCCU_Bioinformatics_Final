@@ -70,26 +70,26 @@ cp ./all_fastq/SRR389762_1.fastq ./fastq/SRR389762_R1.fastq
 cp ./all_fastq/SRR389762_2.fastq ./fastq/SRR389762_R2.fastq
 ```
 
-###Step1
+###Step2
 Run
 ```
 ./juicer.sh -z ./fasta/fasta_filtered.fasta -p ./chrom.sizes -y ./DpnII.txt -g dm3
 ```
 
-###Step2
+###Step3
 You have to add *_abnorm.sam in the ./split after you run juicer.sh</br>
 It may be new issue...
 ```
 cp ./tmp_abnorm.sam
 ```
 
-###Step3
+###Step4
 When it finish, move *.hic to other directory and change file name
 ```
 mv ./aligned/inter.hic ./out_hic/{times}.hic
+```
 
-
-###Step4
+###Step5
 Remove ./splits ./aligned ,fastq in the ./fastq
 ```
 rm -rf ./splits ./aligned ./fastq/*
