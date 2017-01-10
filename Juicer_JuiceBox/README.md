@@ -8,6 +8,7 @@ Finished with Juicer / JuiceBox
 
 ###Pre-install
 [Burrows-Wheeler Aligner](http://bio-bwa.sourceforge.net)
+[CUDA](https://developer.nvidia.com/cuda-downloads)
 
 ###For MacOSX
 You have to use gawk instead of awk
@@ -66,14 +67,14 @@ sudo cp -r ./scripts /opt
 
 --------------------
 ##Run with juicer
-##You have to do these steps pairs by pairs
-
 
 ###Step1
 Rename .fastq file and move it the ./fastq<br>
 ```
 cp ./all_fastq/SRR389762_1.fastq ./fastq/SRR389762_R1.fastq
 cp ./all_fastq/SRR389762_2.fastq ./fastq/SRR389762_R2.fastq
+cp ./all_fastq/SRR389763_1.fastq ./fastq/SRR389763_R1.fastq
+....
 ```
 
 ###Step2
@@ -89,24 +90,13 @@ It may be new issue...
 cp ./tmp_abnorm.sam
 ```
 
-###Step4
-When it finish, move *.hic to other directory and change file name
-```
-mv ./aligned/inter.hic ./out_hic/{times}.hic
-```
-
-###Step5
-Remove ./splits ./aligned ,fastq in the ./fastq
-```
-rm -rf ./splits ./aligned ./fastq/*
-```
 
 
 ---------------
 
 ###Juicebox
 After finish above steps<br>
-Open juicebox with all the .hic files in the out_hic directory
+Open juicebox with the .hic files in the /aligned directory
 
 
 
