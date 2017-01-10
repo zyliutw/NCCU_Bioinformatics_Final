@@ -84,7 +84,7 @@ Run
 
 ###Step3
 You have to add *_abnorm.sam in the ./split after you run juicer.sh</br>
-It may be new issue...
+It may be a new issue...
 ```
 cp ./tmp_abnorm.sam
 ```
