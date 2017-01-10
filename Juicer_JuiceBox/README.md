@@ -66,14 +66,13 @@ sudo cp -r ./scripts /opt
 ```
 
 --------------------
-##Run with juicer
+##Run with Juicer
 
 ###Step1
-Rename .fastq file and move it the ./fastq<br>
+Rename .fastq file in the ./fastq<br>
 ```
-cp ./all_fastq/SRR389762_1.fastq ./fastq/SRR389762_R1.fastq
-cp ./all_fastq/SRR389762_2.fastq ./fastq/SRR389762_R2.fastq
-cp ./all_fastq/SRR389763_1.fastq ./fastq/SRR389763_R1.fastq
+mv ./fastq/SRR389762_1.fastq ./fastq/SRR389762_R1.fastq
+mv ./fastq/SRR389762_2.fastq ./fastq/SRR389762_R2.fastq
 ....
 ```
 
@@ -94,7 +93,7 @@ cp ./tmp_abnorm.sam
 
 ---------------
 
-###Juicebox
+###Run with Juicebox
 After finish above steps<br>
 Open juicebox with the .hic files in the /aligned directory
 
