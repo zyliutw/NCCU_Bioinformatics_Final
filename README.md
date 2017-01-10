@@ -17,6 +17,12 @@ Reproduce the expertiment on the [Three-Dimensional Folding and Functional Organ
 ####Result 2A
 ![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/HiCdat_2A.png)
 
+---------
+###Juicer / Juicebox Result
+####Result 1B
+![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/Juicebox_1B.png)
+####Result 2A
+![](https://github.com/yad50968/NCCU_Bioinformatics_Final/blob/master/Juicebox_2A.png)
 
 ---------
 ###HiC-Explorer
