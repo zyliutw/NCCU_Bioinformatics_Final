@@ -1,12 +1,12 @@
 # NCCU Bioinformatics Final Project
 
 ###Member:
-(Liu z.y.)[https://github.com/yad50968]
-(Tammykan)[https://github.com/tammykan]
-(Komegaga)[https://github.com/Komegaga]
-(Lan105753035)[https://github.com/Lan105753035]
-(Cwsu)[https://github.com/cwsu]
-(Jessie Chuang)[https://github.com/jessie-chuang]
+1. (Liu z.y.)[https://github.com/yad50968]
+2. (Tammykan)[https://github.com/tammykan]
+3. (Komegaga)[https://github.com/Komegaga]
+4. (Lan105753035)[https://github.com/Lan105753035]
+5. (Cwsu)[https://github.com/cwsu]
+6. (Jessie Chuang)[https://github.com/jessie-chuang]
 
 ---------
 
