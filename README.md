@@ -1,6 +1,6 @@
 # NCCU Bioinformatics Final Project
 
-###Member:
+### Member:
 1. [Liu z.y.](https://github.com/yad50968)
 2. [Tammykan](https://github.com/tammykan)
 3. [Komegaga](https://github.com/Komegaga)
